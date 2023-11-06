@@ -13,4 +13,24 @@ print("-" * 10, 'nan', "-" * 10)
 # 不可变类型 :值改变，id不变
 """str int float """
 
-
+# 深度拷贝与浅拷贝
+"""
+浅拷贝
+l3=l1.copy()
+l3不可变类型改变l1不可变类型不变
+l3可变类型改变其中的值l1不可变类型改变
+深拷贝 都不变
+例子：
+import copy
+l1 = [11, 2, 3, [1, 2, 3]]
+l3 = copy.deepcopy(l1)
+print(l1)
+print(l3)
+l3[3][2] = 5
+print(l1)
+print(l3)
+l2=l1.copy()
+l2[3][2] = 2
+print(l1)
+print(l2)
+"""
