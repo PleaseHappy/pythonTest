@@ -1,3 +1,6 @@
+# print()
+print("1111")  # 默认自带换行符
+print("1111", end="")  # 可以用end=“”取代换行符
 # 输入  input 注:python3将输入内容都存为str
 name1 = input('请输入:')
 print(name1)
