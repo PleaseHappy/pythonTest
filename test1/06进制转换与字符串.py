@@ -28,4 +28,12 @@ print(a, '\t', b, '\t', c, '\t', d)
 # 5.长度 len()
 # 6.lower()小写 upper()大写
 # 7.startwith()判断以什么开头返回bool endwith()判断以什么结尾
-
+# 8.join  将字符串（必须字符串）列表拼接
+l = ['hello', 'world', '!']
+t1 = " qqqq".join(l)
+print(t1)
+# 9.replace
+t2 = t1.replace(" qqqq", " ", 2)
+print(t2)
+# 10.isdigit 判读字符串是否纯数字字符
+print("12".isdigit())
